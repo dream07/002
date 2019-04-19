@@ -1,0 +1,43 @@
+<view class="avatar center">
+  <!-- <image src='/assets/images/avatar.png'></image> -->
+  
+  <open-data type="userAvatarUrl"></open-data>
+</view>
+<!-- <view class='divider'></view>
+<view class='cell'>
+  <navigator class="cell-item">
+      <text>个人资料</text>
+  </navigator>
+  <navigator class="cell-item arrow">
+      <text>我的优惠卷</text>
+  </navigator>
+</view>
+<view class='divider'></view>
+<view class='cell'>
+  <navigator class="cell-item">
+      <text>个人资料</text>
+  </navigator>
+  <navigator class="cell-item arrow">
+      <text>我的优惠卷</text>
+  </navigator>
+  <navigator class="cell-item arrow">
+      <text>我的优惠卷</text>
+  </navigator>
+  <navigator class="cell-item arrow">
+      <text>我的优惠卷</text>
+  </navigator>
+</view>
+<view class='divider'></view>
+<view class='cell'>
+  <navigator class="cell-item arrow">
+      <text>设置</text>
+  </navigator>
+</view> -->
+<van-tabs animated>
+  <van-tab title="我的收藏">
+  内容 1
+  </van-tab>
+  <van-tab title="播放历史">
+  内容 2
+  </van-tab>
+</van-tabs>

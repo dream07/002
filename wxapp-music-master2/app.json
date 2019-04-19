@@ -1,0 +1,43 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/list/list",
+    "pages/user/user",
+    "miniprogram_npm/vant-weapp/search/index",
+    "pages/logs/logs"
+  ],
+  "requiredBackgroundModes": [
+    "audio"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#e21918",
+    "navigationBarTitleText": "承易启慧",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "list": 
+    [
+      {
+      "pagePath": "pages/index/index",
+      "text": "text",
+      "iconPath": "assets/bai/liebiao.png",
+      "selectedIconPath": "assets/hong/liebiao.png"
+    },
+    {
+      "pagePath": "pages/user/user",
+      "text": "text",
+      "iconPath": "assets/bai/bofang.png",
+      "selectedIconPath": "assets/hong/bofang.png"
+    },
+    {
+      "pagePath": "pages/user/user",
+      "text": "text",
+      "iconPath": "assets/bai/04.png",
+      "selectedIconPath": "assets/hong/bofang.png"
+    }
+    ]
+  }
+  
+    
+}
